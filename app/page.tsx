@@ -26,6 +26,16 @@ export default function Home() {
           {/* Row 3 - Projects */}
           <ProjectCard
             className="md:col-span-3 lg:col-span-4"
+            title="MenuKYK"
+            description="A serverless SaaS platform automating dormitory menu tracking across Turkey. Features crowdsourced uploads, AI-powered image processing (Gemini), and admin verification."
+            tags={["React", "Vite", "Supabase", "Tailwind CSS", "PWA"]}
+            color="bg-indigo-600"
+            image="/images/menukyk_new.png"
+            imageClassName="object-contain bg-black/50"
+            href="https://menukyk.com.tr"
+          />
+          <ProjectCard
+            className="md:col-span-3 lg:col-span-4"
             title="Greenhouse Management"
             description="A comprehensive digital solution for farmers to manage greenhouse records, track harvests, and monitor fertilization. Built for efficiency and ease of use in the field."
             tags={["Flutter", "BLoC", "Supabase", "Firebase"]}
