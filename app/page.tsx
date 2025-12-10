@@ -58,7 +58,7 @@ export default function Home() {
             className="md:col-span-3 lg:col-span-4"
             title="Wine Quality Classification"
             description="Production-ready ML pipeline achieving 83.8% accuracy. Features rigorous data leakage prevention, SMOTE handling, XGBoost/RandomForest models, and SHAP explainability. Validated with Simpson's Paradox testing."
-            tags={["Python", "Scikit-learn", "XGBoost", "SHAP", "Streamlit"]}
+            tags={["Python", "Scikit-learn", "XGBoost", "SHAP"]}
             color="bg-red-800"
             image="/images/wine_new.png"
             href="https://wine-quality-website.vercel.app/"
