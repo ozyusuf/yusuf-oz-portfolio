@@ -55,12 +55,13 @@ export default function Home() {
 
           {/* Row 4 - More Projects */}
           <ProjectCard
-            className="md:col-span-3 lg:col-span-4 opacity-70 hover:opacity-100 transition-opacity"
-            title="Wine Quality Prediction (School Project)"
-            description="Machine Learning model to predict wine quality based on physicochemical tests. Analyzing dataset features to determine key quality indicators."
-            tags={["Python", "Scikit-learn", "Pandas", "Data Science"]}
+            className="md:col-span-3 lg:col-span-4"
+            title="Wine Quality Classification"
+            description="Production-ready ML pipeline achieving 83.8% accuracy. Features rigorous data leakage prevention, SMOTE handling, XGBoost/RandomForest models, and SHAP explainability. Validated with Simpson's Paradox testing."
+            tags={["Python", "Scikit-learn", "XGBoost", "SHAP", "Streamlit"]}
             color="bg-red-800"
             image="/images/wine_new.png"
+            href="https://wine-quality-website.vercel.app/"
           />
           <ProjectCard
             className="md:col-span-3 lg:col-span-4"
