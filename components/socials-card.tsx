@@ -61,13 +61,13 @@ export const AiJourneyCard = () => {
         <BentoGridItem
             className="md:col-span-2 lg:col-span-2 row-span-1 bg-gradient-to-br from-blue-900/20 to-black border-blue-500/30"
             title="AI & ML Journey"
-            description="Google AI & Tech Academy"
+            description="Deep dive into Computer Vision."
             icon={<BrainCircuit className="h-5 w-5 text-blue-400" />}
         >
             <div className="w-full bg-gray-800 rounded-full h-2.5 mt-2 overflow-hidden">
                 <div className="bg-blue-400 h-2.5 rounded-full w-[5%] animate-pulse shadow-[0_0_10px_rgba(59,130,246,0.5)]"></div>
             </div>
-            <p className="text-xs text-gray-400 mt-2">Starting Soon</p>
+            <p className="text-xs text-gray-400 mt-2">Upcoming: Image Processing</p>
         </BentoGridItem>
     );
 };
